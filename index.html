@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>HTML</title>
+  
+  <!-- HTML -->
+  
+
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  
+  <!--   (input-r[name="" id="$" value=""]+label[for="$"])*
+ -->
+ <header>
+   <img src="Blogo.svg" alt="" />
+ </header>
+ <h3>Open multiple tabs and search unique text on bing </h3>
+ <hr>
+ <b>Search text type : </b>
+ <div>
+ <input type="radio" name="search-type" id="text-dt" value="time-dt" >
+ <label for="text-dt">Text date time</label>
+ <input type="radio" name="search-type" id="random" value="words" checked>
+ <label for="random">Random words</label>
+ </div>
+ <hr>
+ 
+ <b>Number of tabs:</b>
+ <div class="radio-toolbar1">
+   <input type="radio" name="tabs" id="tabs1" value="5">
+   <label for="tabs1">5</label>
+   <input type="radio" name="tabs" id="tabs2" value="10">
+   <label for="tabs2">10</label>
+   <input type="radio" name="tabs" id="tabs3" value="15">
+   <label for="tabs3">15</label>
+   <input type="radio" name="tabs" id="tabs4" value="20" checked>
+   <label for="tabs4">20</label>
+   <input type="radio" name="tabs" id="tabs5" value="25">
+   <label for="tabs5">25</label>
+   <input type="radio" name="tabs" id="tabs6" value="30">
+   <label for="tabs6">30</label>
+
+   <input type="radio" name="tabs" id="tabs8" value="40">
+   <label for="tabs8">40</label>
+   <input type="radio" name="tabs" id="tabs9" value="50">
+   <label for="tabs9">50</label>
+   <input type="radio" name="tabs" id="tabs10" value="60">
+   <label for="tabs10">60</label>
+ </div>
+ <hr>
+ <b>Time delay for each tab(in ms):</b>
+ <div class="radio-toolbar2">
+   <input type="radio" name="time-delay" id="timeDelay1" value="500">
+   <label for="timeDelay1">500</label>
+   <input type="radio" name="time-delay" id="timeDelay2" value="1000" checked>
+   <label for="timeDelay2">1000</label>
+   
+   <input type="radio" name="time-delay" id="timeDelay3" value="1200">
+   <label for="timeDelay3">1200</label>
+   
+   <input type="radio" name="time-delay" id="timeDelay4" value="1500">
+   <label for="timeDelay4">1500</label>
+   
+   <input type="radio" name="time-delay" id="timeDelay5" value="2000">
+   <label for="timeDelay5">2000</label>
+
+   <input type="radio" name="time-delay" id="timeDelay6" value="2500">
+   <label for="timeDelay6">2500</label>
+ </div>
+ 
+ <hr>
+  <button id="btn">open tabs</button>
+
+  <!-- Project -->
+  <script type="module" src="main.js"></script>
+</body>
+</html>
